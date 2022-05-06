@@ -3,12 +3,10 @@
 | Day   | Hours | Description                              |
 |-------|-------|------------------------------------------|
 | May02 | 4     | Meeting with the partner, try to understand their business use case, set up trello account |
-| May03 | 7    |  Worked on the proposal, created grantt chart for the timelines and the deliverables,
-worked with the team members on the dataset description, and assigning roles and resposnbilities for each member in the project related activities|
+| May03 | 7    |  Worked on the proposal, created grantt chart for the timelines and the deliverables,worked with the team members on the dataset description|
 | May04 | 7     |  Went through the research papers, project background, literature overview                                        |
-| May05 | 7     |  Went through the research papers, project background, literature overview, worked on proposal modification by changing motivation,
-purpose, tools to be used and various sections as highlighted by the customer|
-| May06 | 7     |  Went through the research papers, project background, literature overview, understanding the dataset architecture                                    which needs to be used for the modelling standpoint    |
+| May05 | 7     |  Went through the research papers, project background, literature overview, worked on proposal modification by changing motivation |
+| May06 | 7     |  Went through the research papers, project background, literature overview, understanding the dataset architecture |
 | May09 | X     |                                          |
 | May10 | X     |                                          |
 | May11 | X     |                                          |
