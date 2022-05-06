@@ -21,12 +21,20 @@ We seek to test Machine Learning (ML) methods for predicting crop yield at towns
 ## Describe your dataset in about 150-200 words
 
 ### Crop yield data:
-
 AAFC has access to crop yield data provided by provincial governments of Alberta, Saskatchewan and Manitoba via an memorandum of understanding (MOU). Originally at quarter section  level, these data sets have been rescaled to township level using geostatistical techniques. These data sets will be used as observations for training the models.
 
 ### Earth Observation predictor variables:
+
 AAFC scientists and partners have assembled ground and satellite derived predictor variables for improving the crop yield prediction skill at finer scale. Examples include the Normalized Difference Vegetation Index (NDVI) from Synthetic Aperture Radar (SAR) and optical sensors, surface soil moisture from active and passive microwave sensors, the evaporative stress index from thermal-optical data, leaf area index from Sentinel-2 and high resolution modelled weather data sets from the Canadian Meteorological Centre at 2.5km and 10km. These data sets have been aggregated at township level for at least 20 years. Other data sets include value added variables derived from intermediate models such as the Versatile Soil Moisture Budget (VSMM) from which soil moisture and crop stress index are calculated and used as input in the crop yield prediction models. Heat related indices such as Growing degree days and stress days are equally available. All data sets are organized as tables and tagged to townships by crop type (using crop density maps).
 
 
 ## Acknowledgements and references 
 
+Luca Sartore, Arthur N. Rosales, David M. Johnson, Clifford H. Spiegelman, Assessing machine leaning algorithms on crop yield forecasts using functional covariates derived from remotely sensed data, Computers and Electronics in Agriculture, Volume 194, 2022, 106704, ISSN 0168-1699.
+
+Huiren Tian, Pengxin Wang, Kevin Tansey, Jingqi Zhang, Shuyu Zhang, Hongmei Li,
+An LSTM neural network for improving wheat yield estimates by integrating remote sensing data and meteorological data in the Guanzhong Plain, PR China, Agricultural and Forest Meteorology, Volume 310, 2021, 108629, ISSN 0168-1923.
+
+Saeed, Umer & Dempewolf, Jan & Becker-Reshef, Inbal & Khan, Ahmad & Ahmad, Ashfaq & Wajid, Syed. (2017). Forecasting wheat yield from weather data and MODIS NDVI using Random Forests for Punjab province, Pakistan. International Journal of Remote Sensing. 38. 4831-4854. 10.1080/01431161.2017.1323282.
+
+Aston Chipanshi, Yinsuo Zhang, Louis Kouadio, Nathaniel Newlands, Andrew Davidson, Harvey Hill, Richard Warren, Budong Qian, Bahram Daneshfar, Frederic Bedard, Gordon Reichert, Evaluation of the Integrated Canadian Crop Yield Forecaster (ICCYF) model for in-season prediction of crop yield across the Canadian agricultural landscape, Agricultural and Forest Meteorology, Volume 206, 2015, Pages 137-150, ISSN 0168-1923
