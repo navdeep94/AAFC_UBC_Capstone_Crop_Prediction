@@ -1,4 +1,4 @@
-# Exploring Optimal Machine Learning Models For Predicting Crop Yield at Township Level
+# Exploring Optimal Machine Learning Models for Predicting Crop Yield at Township Level
 
 The project aims to explore optimal machine learning models for predicting crop yield based on growing patterns at the township level using the Python programming language with its various libraries and packages for applying Deep Learning methods and algorithms.
 
