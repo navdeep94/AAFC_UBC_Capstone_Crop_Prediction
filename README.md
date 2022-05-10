@@ -7,7 +7,7 @@ The project aims to explore optimal machine learning models for predicting crop 
 - Navdeep Singh Saini: Data Science Enthusiast with the technical and business expertise along with the Analytical acumen to translate real world customer problems into data-driven decisions
 - Mehul Bhargava: Data Science professional with strong academia and experience performing end-to-end data analysis from extracting raw data to generating dashboards and building predictive models. Strong communicator and passionate about problem solving.
 - Person 3: one sentence about you!
-- Person 4: one sentence about you!
+- Val Veeramani: Analyst with a strong business acumen who loves creating intriguing data visualizations!
 
 ## INTRODUCTION
 
