@@ -1,0 +1,7 @@
+modelling will be done for each ecodistrict
+township ID will be the key field while joining tables
+Now yield data for canola and for saskachewan and manitoba, 2010-2021 but need to use for 2020
+negative ndvi values need to be converted to 0
+ECV SMOS - Soil Moisture Data, only consider the mean value for thus dataset, year, avaerage by the year and week to create running average,
+get rid of 50% of ratio of average count to total count
+We dont need to 

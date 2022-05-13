@@ -1,0 +1,37 @@
+Minutes of the Meeting 1:
+
+Objective - Crop yield forecasting model. Uses dataset for modelling based on climate based, time series, recorded yield, use machine learning method in python (Neural Network method mostly)
+Use the model to forecast the expected variables - yield - dependent variable
+Can tell the expected yield for this year using the model
+First test the model on one crop and then on another crop
+How to transfer data to Data science team? Maybe via FTP/SFTP - Onus on the client
+We need to see which variables can be added or included in the model
+
+Overview of the Dataset:
+Township - Area or the modelling unit, 10*10 KM
+Area - Manitoba, Saskachuan - where the data is
+10 years of the historical data
+Important variable is climate change 1985 - 2020
+Soil moisture is naother one 2010 - 2020
+Evaporative Stress Index 2019-20
+Client Recommendation is to use 3 week average
+We need to work with spatial data or geographical data
+If GIS knowledge, it should be better, 
+if not, need to include map variables - some township ID for the model to work in tabular format, 
+need to revert to the customer if we are fine with GIS approach and fetch predictors and they help 
+us in creating the GIS into tabular format
+Darker township represent higher yield
+
+Ecodistricts - Environments which can be taken into use for predictors
+
+
+Proposal:
+Objectives/Expectations
+Guidelines
+
+
+References:
+Previous methods or methodologies used by the customer for this business use case
+
+Software Recommended:
+ArcGis Pro
