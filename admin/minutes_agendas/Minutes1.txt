@@ -24,14 +24,8 @@ Darker township represent higher yield
 
 Ecodistricts - Environments which can be taken into use for predictors
 
-
-Proposal:
-Objectives/Expectations
-Guidelines
-
-
 References:
 Previous methods or methodologies used by the customer for this business use case
 
 Software Recommended:
-ArcGis Pro
+ArcGis Pro/Jupyter Notebook/Python Environment etc
