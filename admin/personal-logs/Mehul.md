@@ -11,7 +11,7 @@
 | May10 Tuesday | 5     |  <ul><li>Went through the Research papers (Chipanshi et al - 2015 and Cai et al - 2019)</li><li>EDA on the dataset</li><li>Had our Team meeting.</li><li>Learned more about the dataset and problem domain.</li></ul>                                         |
 | May11 Wednesday | 6     | <ul><li>Attended our team meeting, and discussed about th NDVI dataset, general questions and overall EDA for the data that is yet to be updated by the client.</li><li>Did more EDA on the dataset to come up with more questions, before attending meeting with the client scheduled next day.</li><li>Preared more questions for the client and added them in our common file (google docs).</li><li>Resolved small issues related to the GitHub and helped my team members as well.</li></ul>                                          |
 | May12 Thursday | 6     |  <ul><li>Attended our meeting with client.</li><li>Looked at the dataset and the meta data provided by the client (new dataset).</li><li>EDA on the new dataset and some filtering of data as guided by the client.</li></ul>                                           |
-| May13 Friday | x     |                                          |
+| May13 Friday | 7     |      <ul><li>Did Eploratory Data Analysis on the new dataset and some filtering of data as guided by the client.</li><li>Looked at the dataset and learned more about the terminologies related to our work.</li></ul>                                            |
 | May16 | X     |                                          |
 | May17 | X     |                                          |
 | May18 | X     |                                          |
