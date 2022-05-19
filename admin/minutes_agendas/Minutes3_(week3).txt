@@ -1,0 +1,22 @@
+MINUTES OF MEETING 3 (week 3) -  19th May, 2020. 
+
+Yield Dataset:    
+If there is a negative value, then convert it to Not Available value [NA].Finally, we are dropping all NA alues. 
+(Do not chage Null values to zero) 
+Reason: There is no reporting in that yield. There is no canola in that region (ot a canola zone)
+There is no canola in that region we can treat as Null/0 (here, we will treat it as Null). 
+  
+Climate dataset:
+make negative values 0.
+
+NDVI dataset:
+No issues with this dataset.
+
+Soil Moisture dataset:
+We have to find the 3 weeks running average with all of the values we have. Suppose, if we don't have data for 1 week out of 3, 
+then we can calculate 3 weeks average by just 2 weeks which have values.
+And we can remove the first 5 columns of Soil Moisture (18th-23rd week) to get rid of Null values. 
+Basically, there should be no null values in this dataset. 
+
+Task to be completed by us today:
+We have to send the list of all Township IDs, that are not common in Yield dataset versus all other 3 dataset. 
