@@ -11,12 +11,12 @@
 | May10 | 6     |   Continued with the initial EDA and wrangling. Merged the data sets together. Added more questions related to the data to the questions document. Studied on Deep learning                                   |
 | May11 | 6     |                         Went through another research paper. Learned more on the terminologies used in remote sensing data.   Discussed the reasearch paper and questions in the team meeting.               |
 | May12 | 6     |              Attended the client meeting. Got the updated dataset from the client. Gained more context on the data and the required next steps. Did initial wrangling on the new dataset.                         |
-| May13 | 5     |             Performed EDA on the new datasets.                              |
-| May14 | X     |                                          |
-| May15 | X     |                                          |
-| May16 | X     |                                          |
-| May17 | X     |                                          |
-| May18 | X     |                                          |
+| May13 | 5     |             Performed EDA on the new datasets|
+| May16 | 6     |         Merged the datasets together on Township_ID and Year. For each join, oberserved the rows which are not joining and identified the reason as to why they are not joining. Added few more questions to the doc to get more clarification from client.                                |
+| May17 | 5     |    Created a dummy file for testing purpose to start with feature selection. Looked into various feature selction algorithms. Attended meeting with capstone instructors and got inputs from them.  Did the peer evaluations.                               |
+| May18 | 6    |       Attended the team meeting and split various feature selection methods amongst ourselves. Using the test.txt file created, performed random forest feature selction and got the code ready. Read more on how to deal with time-series data.                                    |
+| May19 | 6     |       Attended our meeting with the clients, to showcase our progress. Based on their inputs, cleaned our files further. Sent across the missing township ids present in yield but not in other datasets.                                   |
+| May20 | 7     |   Eliminated the missing IDs by doing inner join as mentioned by the clients. Came up with a logic to impute missing values in soil_moisture dataset and executed the same. Obtained the final merged dataset. Started working on week 3 presentation.                                       |
 | May19 | X     |                                          |  
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
