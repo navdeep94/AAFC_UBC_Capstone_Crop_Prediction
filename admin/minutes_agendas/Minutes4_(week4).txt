@@ -1,0 +1,42 @@
+MINUTES of the MEETING - 4th week (26th May, 2022)
+
+* One of the ultimate goals was not to use the original variables, like NDVI. Because they define the shape of the variation.       
+  Since, we do not have much time, we are not focusing on this.  
+
+* It's not too important to do the Variable Selection. As Deep Learning methods will already do that. But yes, analyzing them initially gives us other insights about the data.  
+   
+* We are not going to have one model, so it's kind of good to look at the importance of the predictors (just for an overview) as not all of them are necessarily important.
+  
+* Shape of the curve is important in the features for the prediction, not the peak (like we saw in bar plots).  
+  While looking at the feature importance, do not look at the peak values, consider the curvature of how the variables are varying with the time.   
+
+       
+* We can not take average of whole Praries, but since we have the data for each Township, it's not appropriate.
+  But we can also see it as something changing overtime (over years).
+  It may mean that during growing season, in those timeship there is a change in temperature or crops require more water, etc. 
+
+** Analyzing the data over years tells about other aspects of the data, but here we are interested in township level. 
+        
+** In 2020, the yield was high, temperature was good. We can do the feature selection, PCA on yerly level. Compare 2020 with other years like 2013.   
+
+** If we can also create Scree plot, that will give really good insights.           
+
+* PCA can also explain which group of variables are related to yield.     
+   
+* When we used LASSO, Random Forest, and XGBoost we saw that NDVI20_23 is important, we can say that the variable near to that like NDVI21_24 is also important. 
+  But it's not considered as important while performing these algorithms. 
+  So, first we can first do the PCA, it takes care of correlation and variable selection and then we can use other algoritms.       
+
+** We can not do much with the annual model, if we do annual model, we can use only the used years data to predict this years yield. Instead We should use districts instead.  
+   
+** If we are doing Feature selection on yearly basis, then we can select the years with same characteristics. (Not take some years like drought years, etc.)     
+   But for the years there is very less variation in yield.    
+
+** Two Approaches:
+   1. On Eco district basis, for all years. 
+   2. For each year and for all eco districts.   
+
+** It's not finalized for which approach to use. They will inform us later today.    
+
+
+
