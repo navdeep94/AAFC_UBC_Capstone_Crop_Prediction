@@ -17,12 +17,12 @@
 | May18 | 6    |       Attended the team meeting and split various feature selection methods amongst ourselves. Using the test.txt file created, performed random forest feature selction and got the code ready. Read more on how to deal with time-series data.                                    |
 | May19 | 6     |       Attended our meeting with the clients, to showcase our progress. Based on their inputs, cleaned our files further. Sent across the missing township ids present in yield but not in other datasets.                                   |
 | May20 | 7     |   Eliminated the missing IDs by doing inner join as mentioned by the clients. Came up with a logic to impute missing values in soil_moisture dataset and executed the same. Obtained the final merged dataset. Started working on week 3 presentation.                                       |
-| May19 | X     |                                          |  
-| ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| May24 | 6     | Attended the meeting with capstone guides and showcased our progress.Worked on LASSO and Random forest feature selection post confirmation of the wrangled dataset from the clients. Discussed and decided on what to present to clients in thursdays meeting.                             |  
+| May25 | 8 | Attended meeting with TA - Debangsha. Looked into other potential algorithms that can be used for feature selection. Reviewed the work done my other teammates and created the final excel doc |
+| May26 | 8     |       Showcased our progress to clients. There was a change in scope of the project. Looked into the feasibility of doing that. Started working on mid term status presentation                                   |
+| May27 | 8     |  Attended team meeting and discussed on how to go ahead with the change in project scope. Worked majorly on the midterm progress presentation.                                   |
+| May30 | 7     | Presented our mid term progress to the MDS cohort. Started working on LASSO on top 10 eco districts having higher number of records                                         |
+| Jun01 | 8     |    Finished working on LASSO model for top 10 eco districts. Had a team meeting to review our work and created a final excel sheet to show case it to clients.                                      |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
