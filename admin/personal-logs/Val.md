@@ -17,8 +17,11 @@
 | May18 | 4     | Had meeting with Debangsha, tried Lasso and XGBoost for feature selection, prepared for client meeting                                         |
 | May19 | 8     | had client meeting, modified code to suit the client’s needs to deal with the null values|
 | May20 | 8     | Tried to find a way to deal with the null values created by the pivot table for soil moisture dataset|
-| May0X | X     |                                          |
-| May0X | X     |                                          |
+| May23 |   6   | Had team meeting & discussed different techniques for finding a solution for the soil moisture dataset and tried different logics                                         |
+| May24 |   8   | had our team presentation for the week, received confirmation from our client on what logic to be used, started working on EDA                                         |
+| May25 |   10  | Had meeting with Debangsha, finished doing visualizations for our presentation to our client                                         |
+| May26 |   8   | had client meeting, looked for new regularization approaches and discussed with teammates                                         |
+| May27 |   8   | Worked on the midterm presentation, had team meeting to divide tasks among teammates on the presentation                                         |
 | ----- | ----- | -------------- End of May -------------- |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
