@@ -22,10 +22,10 @@
 | May26 Thursday | 8     |  <ul><li>Attended meeting with the clients, asked relevant questions, created a minutes of meeting file.</li><li>Filtered the data again for eco district level.</li><li>Looked at new regularization approaches, and decided what to use.</li><li>Started working on the mid-term status presentation.</li></ul>                                        |    
 | May27 Friday | 6     |  <ul><li>Attended our team meeting.</li><li>Worked on the midterm status presentation slides, as a task divided among the team members.</li><li>Had a dry run for the presentation with the team mates, and finalized the presentation.</li><li>Worked on Ridge Regression.</li></ul>      |       
 | May30 Monday | 7     |  <ul><li>Again review our midterm status presentation slides, and submitted it.</li><li>Had a dry run for the presentation with the team mates.</li><li>Worked on Ridge Regression for the top 10 District IDs with more data.</li></ul>    |   
-| May31 Tuesday | X     |      |   
+| May31 Tuesday | 7     |   <ul><li>Presented the midstatus presentation for our poject.</li><li>Performed Ridge Regression and did some hyperparameter tuning to get better ccuracy.</li><li>Looked at other Neural Network models for further analysis.</li></ul>   |   
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 Wednesday | 6     |    <ul><li>Attended the meeting with TA.</li><li>Added comments and headings in the .ipynb file for Ridge regression, and the results were added in a common excel sheet to be presented to the clients in the next meeting.</li><li>Attended a group meeting for deciding the presentation agenda for the meeting next day with the clients and came up with new questions and suggestions.</li><li>Looked at other Neural Network models for further analysis as they are recommended by the clients.</li></ul>                                       |
+| Jun02 Thursday | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
