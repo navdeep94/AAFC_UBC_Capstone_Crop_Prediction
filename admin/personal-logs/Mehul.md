@@ -25,7 +25,7 @@
 | May31 Tuesday | 7     |   <ul><li>Presented the midstatus presentation for our poject.</li><li>Performed Ridge Regression and did some hyperparameter tuning to get better ccuracy.</li><li>Looked at other Neural Network models for further analysis.</li></ul>   |   
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 Wednesday | 6     |    <ul><li>Attended the meeting with TA.</li><li>Added comments and headings in the .ipynb file for Ridge regression, and the results were added in a common excel sheet to be presented to the clients in the next meeting.</li><li>Attended a group meeting for deciding the presentation agenda for the meeting next day with the clients and came up with new questions and suggestions.</li><li>Looked at other Neural Network models for further analysis as they are recommended by the clients.</li></ul>                                       |
-| Jun02 Thursday | X     |                                          |
+| Jun02 Thursday | 7     |    <ul><li>Attended the meeting with clients, asked several questions, showed the progeress for ML algorithms based on eco districts, and decided to start working on Neural Networks after this.</li><li>As I worked on Ridge Regression previously, I finished the proper python scrip with a lot of comments and description in markdown.</li><li>Created an excel sheet showcasing the results of ridge regression.</li><li>Started working on Neural Networks. At first I did Fully Connected FeedForward model for one eco district to see its performance.</li></ul>                                       |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
