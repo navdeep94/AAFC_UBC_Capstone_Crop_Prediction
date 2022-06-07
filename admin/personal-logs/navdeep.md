@@ -22,16 +22,16 @@
 | May25 | 6   |    <ul><li>Regular internal calls to dicuss about the future strategies about the project</li><li>Working on Feature selection part like the principal component analysis, xgboost feature selection and exploring more about the python code and compiled results in excel sheet</li></ul>                                      |
 | May26 | 6  |     <ul><li>Regular internal calls to dicuss about the future strategies about the project</li><li>Call with the partner to discuss the progress made in the project<li>Working on Feature selection part like the principal component analysis, xgboost feature selection and exploring more about the python code and compiled results in excel sheet</li></ul>                                     |
 | May27 | 6   |     <ul><li>Regular internal calls to dicuss about the future strategies about the project</li><li>Call with the partner to discuss the progress made in the project<li>Working on Feature selection part like the principal component analysis, xgboost feature selection and exploring more about the python code</li><li>Working on the ppt for the mid presentation next month</li></ul>                                   |
-| May30 | X     |                                          |
-| May31 | X     |                                          |
+| May30 | 6    |   <ul><li>Worked on the mid term project presentation and preparation/dry runs</li><li>Call with the partner to discuss the progress made in the project<li>Worked on the principal component regression model, automated the python code</li><li>Shared model summary findings with the other team members in terms of mse, accuracy and other model performance indicators</li></ul>                                       |
+| May31 | 6    |   <ul><li>Worked on the mid term project presentation and preparation/dry runs</li><li>Call with the partner to discuss the progress made in the project<li>Worked on the principal component regression model, automated the python code</li><li>Shared model summary findings with the other team members in terms of mse, accuracy and other model performance indicators</li></ul>                                       |
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 | 6   |   <ul><li>Worked on the mid term project presentation and preparation/dry runs</li><li>Call with the partner to discuss the progress made in the project<li>Worked on the principal component regression model, automated the python code</li><li>Shared model summary findings with the other team members in terms of mse, accuracy and other model performance indicators</li></ul>                                       |
+| Jun02 | 6   |    <ul><li>Worked on the mid term project presentation and preparation/dry runs</li><li>Call with the partner to discuss the progress made in the project<li>Worked on the principal component regression model, automated the python code</li><li>Shared model summary findings with the other team members in terms of mse, accuracy and other model performance indicators</li></ul>                                      |
+| Jun03 | 6   |     <ul><li>Worked on the mid term project presentation and preparation/dry runs</li><li>Call with the partner to discuss the progress made in the project<li>Worked on the principal component regression model, automated the python code</li><li>Shared model summary findings with the other team members in terms of mse, accuracy and other model performance indicators</li></ul>                                     |
+| Jun06 | 6  |                                          |
+| Jun07 | 6  |                                          |
+| Jun08 | X     |                                          |
+| Jun09 | X     |                                          |
+| Jun10 | X     |                                          |
 | ----- | ----- | -------------- End of June ------------- |
 
