@@ -21,11 +21,13 @@
 | May24 |   8   | had our team presentation for the week, received confirmation from our client on what logic to be used, started working on EDA                                         |
 | May25 |   10  | Had meeting with Debangsha, finished doing visualizations for our presentation to our client                                         |
 | May26 |   8   | had client meeting, looked for new regularization approaches and discussed with teammates                                         |
-| May27 |   8   | Worked on the midterm presentation, had team meeting to divide tasks among teammates on the presentation                                         |
+| May27 |   8   | Worked on the midterm presentation, had team meeting to divide tasks among teammates on the presentation|
+| May30 |   6   | Had a final review of our midterm presentation. Did a dry run with my teammates to ensure smooth presentation the next day. Started exploring deep learning models|
+| May31 |   8   | Had the midterm presentation, explored deep learning models with PyTorch|
 | ----- | ----- | -------------- End of May -------------- |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun01 | 8     | Had meeting with Debangsha, had a team meeting to decide the presentation info for tomorrow’s client meeting                                         |
+| Jun02 | 10     | had client meeting, started exploring deep learning models with keras as requested by our client. Started running into issues with instability of my Jupiter lab with the kernel crashing.                                         |
+| Jun03 | 8     | Started working on the weekly presentation with Irene and Debangsha. Started exploring alternatives to keras and PyTorch for deep learning models                                         |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
 | Jun0X | X     |                                          |
