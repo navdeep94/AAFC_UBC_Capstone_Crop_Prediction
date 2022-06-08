@@ -22,10 +22,10 @@
 | May26 | 8     |       Showcased our progress to clients. There was a change in scope of the project. Looked into the feasibility of doing that. Started working on mid term status presentation                                   |
 | May27 | 8     |  Attended team meeting and discussed on how to go ahead with the change in project scope. Worked majorly on the midterm progress presentation.                                   |
 | May30 | 7     | Presented our mid term progress to the MDS cohort. Started working on LASSO on top 10 eco districts having higher number of records                                         |
+| May31 | 6     |    Started with LASSO and looked at other Neural Network models for further analysis.                                      |
 | Jun01 | 8     |    Finished working on LASSO model for top 10 eco districts. Had a team meeting to review our work and created a final excel sheet to show case it to clients.                                      |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun02 | 6     |   Attended client meeting and showcased our progress. It was decided to fit models for all the ecodistricts and look at where the accuracy drop off is happening.   Updated the code for LASSO to include display feature selection at an eco district level                              |
+| Jun03 | 8     |    Created an automated script to run LASSO for all the ecodistricts.  Reviewed the weekly presentation deck. Started looking into other alternative models that we can implement.                     |
+| Jun06 | X     |     Merged the results of the LASSO, RR and PCR in an excel and generated the plots w.r.t model performance metrics. Started working on deep learning but  faced issues with respect to tensorflow library.                                 |
+| Jun07 | X     |  Attended meeting with project supervisors. Changed LASSO train test split to 80-20 and recreated the excel file and the respective visualizationa. Explored various deep learning models that can be used for regression. Tried to debug issues with my jupyter lab.                                      |
 | ----- | ----- | -------------- End of June ------------- |
-
