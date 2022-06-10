@@ -1,0 +1,44 @@
+For those eco-districts that have less number of records, we can combine them and cast all those values.
+(This could be done at the client's end). But we are not doing this. Just leaving those eco-districts.         
+  
+If we create models for each of the eco districts, 
+we expect high accuracy when we have high rows and vice-versa. 
+
+
+We'll run all of them regardless of the rows.    
+
+Ultimate goal is to get high accuracy.     
+For each eco-district we need one model.      
+
+* Apply models and look when accuracy is decreasing. 
+
+* Reduce number of variables by using Feature selection models we have, 
+and then apply Deep Learning models.      
+
+* Deep learning models will take care of relationships among variables. 
+
+* Results: Results of each model, and compare each model as well. 
+* Conclusions. 
+
+* Deliverables: 
+- Tables and scripts from us. 
+Output table with additional field, and the accuracy for that forecast, based on townships, eco-districts, and year. 
+(To bring it back to GIS)
+- Scripts of code.     
+  
+
+* Year is also a good predictor, as trend of the crop goes up by years. 
+Not important even if we remove it as we only have it as 11 years. Otherwise it is a good predictor. 
+Explains 70%-80% variance.            
+Year plays important role as technology advances. 
+We can do both use it as well as drop it. Normalizing it as well.
+We have decided to not use it.   
+
+* If the accuracy suddenly drops, we can say that below this number, the accuracy suddenly drops and we take is as the threshold. 
+So we can stop there and use it as a threshold.    
+
+* Scree plot can be created in PCA.    
+
+Also, a plot showing the the trend for eco-districts and accuracy. 
+
+
