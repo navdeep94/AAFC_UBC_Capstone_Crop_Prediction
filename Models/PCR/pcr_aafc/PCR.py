@@ -45,8 +45,8 @@ class pcr_ecodistrict_model_fit():
         train_index=train_features
         test_index=test_features
         
-        X_train_scaled = scale(train_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
-        X_test_scaled = scale(test_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        X_train_scaled = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        X_test_scaled = scale(test_features.loc[:, ~test_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         X_train_pc = pca.fit_transform(X_train_scaled)
 
