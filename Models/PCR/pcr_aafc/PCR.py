@@ -40,7 +40,7 @@ class pcr_ecodistrict_model_fit():
         features= data.drop(['YieldKgAcre'], axis = 1)
         
         train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.20, random_state = 42)
-        scaler = scale(train_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        scaler = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         train_index=train_features
         test_index=test_features
