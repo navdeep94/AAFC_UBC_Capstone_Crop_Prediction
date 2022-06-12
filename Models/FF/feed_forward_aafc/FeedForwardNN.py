@@ -24,9 +24,9 @@ from keras.callbacks import EarlyStopping
 import sklearn
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
+from sklearn.preprocessing import scale
 from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
@@ -47,7 +47,7 @@ class feed_forward_ecodistrict_model_fit():
         feature_list = list(features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])].columns)
         
         train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.20, random_state = 42)
-        scaler = StandardScaler().fit(train_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        scaler = StandardScaler().fit(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         train_index=train_features
         test_index=test_features
