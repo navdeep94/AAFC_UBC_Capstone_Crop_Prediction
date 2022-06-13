@@ -38,14 +38,14 @@ class mlp_ecodistrict_model_fit():
         features= data.drop(['YieldKgAcre'], axis = 1)
         
         train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.20, random_state = 42)
-        scaler = scale(train_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        scaler = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         train_index=train_features
         test_index=test_features
         
         
-        train_features = scale(train_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
-        test_features = scale(test_features.loc[:, ~features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        train_features = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
+        test_features = scale(test_features.loc[:, ~test_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         regr = MLPRegressor(random_state=1, max_iter=5000).fit(train_features, train_labels)
         pred_train = regr.predict(train_features)
