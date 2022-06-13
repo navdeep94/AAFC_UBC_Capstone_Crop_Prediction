@@ -28,8 +28,7 @@
 | Jun03 | 8     |    Created an automated script to run LASSO for all the ecodistricts.  Reviewed the weekly presentation deck. Started looking into other alternative models that we can implement.                     |
 | Jun06 | 6     |     Merged the results of the LASSO, RR and PCR in an excel and generated the plots w.r.t model performance metrics. Started working on deep learning but  faced issues with respect to tensorflow library.                                 |
 | Jun07 | 8     |  Attended meeting with project supervisors. Changed LASSO train test split to 80-20 and recreated the excel file and the respective visualizationa. Explored various deep learning models that can be used for regression. Tried to debug issues with my jupyter lab.                                      |
-| Jun08 | 8     |     Attended weekly log meeting with Debangsha. Explored and implemented PCA+Random forest model to predict the crop yield. Created a script and exported the performance metrics for each sub-model corresponding to each district. 
-Created excel visualization to showcase the performance of each model                          |
+| Jun08 | 8     |     Attended weekly log meeting with Debangsha. Explored and implemented PCA+Random forest model to predict the crop yield. Created a script and exported the performance metrics for each sub-model corresponding to each district. Created excel visualization to showcase the performance of each model                          |
 | Jun09 | 8     |     Attended meeting with the clients and showcased our progress. Created a python package for LASSO implementation as suggested by the clients                                 |
 | Jun10 | 6     |     Replicated the package for PCR+Random forest model as well. Started working on the weekly progress deck. Reviewed the packages created by other teammates as well. Reviewed the python visualization created by my teammate|
 
