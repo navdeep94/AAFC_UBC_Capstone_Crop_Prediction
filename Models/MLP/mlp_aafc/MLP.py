@@ -72,10 +72,10 @@ class mlp_ecodistrict_model_fit():
         ## Calculating unique townships for that Ecodistrict ID
         unique_twnships=data['TWP_ID'].nunique()
 
-        ## Strong labels or response for modelling
+        ## Store labels or response for modelling
         labels = data['YieldKgAcre']
 
-        ## Strong Features or predictors formodelling
+        ## Store Features or predictors for modelling
         features= data.drop(['YieldKgAcre'], axis = 1)
         
         ## Splits the data into training and testing into 80-20 ratio
@@ -160,22 +160,22 @@ class mlp_ecodistrict_model_validation_scoring(mlp_ecodistrict_model_fit):
         ## Calculating the Mean Squared Error for Training Set
         mse_train = round(mean_squared_error(train_labels, pred_train,squared=False),2)
 
-        ## Storing the training predcited values in the original training dataset
+        ## Storing the training predicted values in the original training dataset
         train_index['Predicted_Yield']=pred_train
         
         ## Calculating the Mean Squared Error for Testing Set
         mse_test =round(mean_squared_error(test_labels, pred,squared=False),2)
         
-        #Calculate the absolute errors
+        ## Calculate the absolute errors
         errors = abs(pred - test_labels)
 
-        # Print out the mean absolute error (mae)
+        ## Print out the mean absolute error (mae)
         mae=round(np.mean(errors), 2)
         
-        # Calculate mean absolute percentage error (MAPE)
+        ## Calculate mean absolute percentage error (MAPE)
         mape = 100 * (errors / test_labels)
 
-        # Calculate accuracy
+        ## Calculate accuracy
         accuracy = round(100 - np.mean(mape),2)
         
         print("Mean Squared Error Train: ",mse_train)
@@ -196,7 +196,7 @@ class mlp_ecodistrict_model_validation_scoring(mlp_ecodistrict_model_fit):
                 returns train_index i.e., dataset with predicted values of crop yield based on training set predictors
         '''
 
-        ## using the data returned from the parent class function for test set prediction
+        ## using the data returned from the parent class function for train set prediction
         scaler,regr,train_features,test_features,train_labels,test_labels,train_index,test_index,pred_train,pred=mlp_ecodistrict_model_fit.model_train_test(self)
 
         ## Storing the training predicted values in the original training dataset
