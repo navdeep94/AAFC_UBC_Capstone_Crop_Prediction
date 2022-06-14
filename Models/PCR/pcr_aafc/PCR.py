@@ -101,7 +101,7 @@ class pcr_ecodistrict_model_fit():
         ## The training set features scaled and transformed into principal components
         X_train_pc = pca.fit_transform(X_train_scaled)
         
-        ## List of cummulative variances by all the principal components in %
+        ## List of cumulative variances by all the principal components in %
         result = np.cumsum(np.round(pca.explained_variance_ratio_, decimals=4)*100)
 
         ## Code to check number of principal components explaining atleast 95 % of variance in original dataset predictors
@@ -171,7 +171,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
     """
     
     def __init__(self,aafc_data, ecodistrict):
-        ## Instatiating this class by instatiating the parent class
+        ## Instantiating this class by instantiating the parent class
         pcr_ecodistrict_model_fit.__init__(self,aafc_data, ecodistrict)
         
     def validation_metrics(self):
@@ -185,7 +185,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
                 None
         '''
 
-        ## using the data returened from the parent class function for model evaluation
+        ## using the data returned from the parent class function for model evaluation
         scaler,lin_reg_pc,train_features,test_features,train_labels,test_labels,train_index,test_index,pred_train,pred,best_pc_num,variance=pcr_ecodistrict_model_fit.model_train_test(self)
 
         ## Define cross-validation folds for doing Training MSE
@@ -271,7 +271,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
         
         print("Number of Principal Components is:",best_pc_num)
 
-    def cummulative_explained_variance(self):
+    def cumulative_explained_variance(self):
         '''
         Prints the exact variance from optimal number of principal components
 
@@ -285,7 +285,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
         ## using the data returned from the parent class function for exact variance
         scalar,lin_reg_pc,train_features,test_features,train_labels,test_labels,train_index,test_index,pred_train,pred,best_pc_num,variance=pcr_ecodistrict_model_fit.model_train_test(self)
         
-        print("Cummulative Explained Variance is:",round(variance,2),"%")
+        print("Cumulative Explained Variance is:",round(variance,2),"%")
 
     def score(self,data):
         '''
@@ -298,7 +298,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
                 returns data i.e., dataset with predicted values of crop yield based on New Dataset predictors
         '''
 
-        ## Instation Principal Component Model
+        ## Instantiating Principal Component Model
         pca = PCA()
 
         ## using the data returned from the parent class function for any new data set prediction
