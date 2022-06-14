@@ -139,7 +139,7 @@ class mlp_ecodistrict_model_validation_scoring(mlp_ecodistrict_model_fit):
     """
     
     def __init__(self,aafc_data, ecodistrict):
-        ## Instatiating this class by instatiating the parent class
+        ## Instantiating this class by instantiating the parent class
 
         mlp_ecodistrict_model_fit.__init__(self,aafc_data, ecodistrict)
         
@@ -154,7 +154,7 @@ class mlp_ecodistrict_model_validation_scoring(mlp_ecodistrict_model_fit):
                 None
         '''
 
-        ## using the data returened from the parent class function for model evaluation
+        ## using the data returned from the parent class function for model evaluation
         scaler,regr,train_features,test_features,train_labels,test_labels,train_index,test_index,pred_train,pred=mlp_ecodistrict_model_fit.model_train_test(self)
         
         ## Calculating the Mean Squared Error for Training Set

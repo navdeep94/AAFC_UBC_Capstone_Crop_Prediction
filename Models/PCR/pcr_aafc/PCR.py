@@ -101,7 +101,7 @@ class pcr_ecodistrict_model_fit():
         ## The training set features scaled and transformed into principal components
         X_train_pc = pca.fit_transform(X_train_scaled)
         
-        ## List of cummulative variances by all the principal components in %
+        ## List of cumulative variances by all the principal components in %
         result = np.cumsum(np.round(pca.explained_variance_ratio_, decimals=4)*100)
 
         ## Code to check number of principal components explaining atleast 95 % of variance in original dataset predictors
@@ -185,7 +185,7 @@ class pcr_ecodistrict_model_validation_scoring(pcr_ecodistrict_model_fit):
                 None
         '''
 
-        ## using the data returened from the parent class function for model evaluation
+        ## using the data returned from the parent class function for model evaluation
         scaler,lin_reg_pc,train_features,test_features,train_labels,test_labels,train_index,test_index,pred_train,pred,best_pc_num,variance=pcr_ecodistrict_model_fit.model_train_test(self)
 
         ## Define cross-validation folds for doing Training MSE
