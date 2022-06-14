@@ -28,7 +28,6 @@
 | Jun01 | 8     | Had meeting with Debangsha, had a team meeting to decide the presentation info for tomorrow’s client meeting                                         |
 | Jun02 | 10     | had client meeting, started exploring deep learning models with keras as requested by our client. Started running into issues with instability of my Jupiter lab with the kernel crashing.                                         |
 | Jun03 | 6     | Started working on the weekly presentation with Irene and Debangsha. Started exploring alternatives to keras and PyTorch for deep learning models                                         |
-| Jun03 | 6     | Started working on the weekly presentation with Irene and Debangsha. Started exploring alternatives to keras and PyTorch for deep learning models                                         |
 | Jun06 | 4     | Started looking at the rubric to plan out the final report. Started doing outlines for the report                                         |
 | Jun07 | 4     | Started doing the executive summary and planned out the other parts of the report                                         |
 | Jun08 | 4     | Started doing the data wrangling portion of the final report                                         |
