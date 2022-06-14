@@ -66,7 +66,7 @@ class mlp_ecodistrict_model_fit():
         ## Filtering the Wrangled Data with the required Ecodistrict
         data=self.aafc_data[self.aafc_data['ECODISTRICT_ID']==self.ecodistrict]
 
-        ## Strong the length or observations for that Ecodistrict ID
+        ## Store the length or observations for that Ecodistrict ID
         records=len(data)
 
         ## Calculating unique townships for that Ecodistrict ID
