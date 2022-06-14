@@ -66,7 +66,7 @@ class mlp_ecodistrict_model_fit():
         ## Filtering the Wrangled Data with the required Ecodistrict
         data=self.aafc_data[self.aafc_data['ECODISTRICT_ID']==self.ecodistrict]
 
-        ## Strong the length or observations for that Ecodistrict ID
+        ## Store the length or observations for that Ecodistrict ID
         records=len(data)
 
         ## Calculating unique townships for that Ecodistrict ID
@@ -81,7 +81,7 @@ class mlp_ecodistrict_model_fit():
         ## Splits the data into training and testing into 80-20 ratio
         train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.20, random_state = 42)
 
-        ## storing the scaled training predictor data after removing some of the unnessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
         scaler = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         ## Storing the original training predictor data into another variable before scaling
@@ -90,10 +90,10 @@ class mlp_ecodistrict_model_fit():
         ## Storing the original testing predictor data into another variable before scaling
         test_index=test_features
         
-        ## storing the scaled training predictor data after removing some of the unnessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
         train_features = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
 
-        ## storing the scaled testing predictor data after removing some of the unnessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled testing predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
         test_features = scale(test_features.loc[:, ~test_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         ## Training the multi layer perceptron model on the trained dataset
