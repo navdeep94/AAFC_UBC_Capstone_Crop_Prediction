@@ -37,7 +37,7 @@ class pcr_ecodistrict_model_fit():
     aafc_data : dataframe
         Clean and Wrangled Crop Yield Dataset
     ecodistrict : str
-        specific Ecodistrict region ID
+        specific Eco district region ID
     
 
     Methods
@@ -83,7 +83,7 @@ class pcr_ecodistrict_model_fit():
         ## Splits the data into training and testing into 80-20 ratio
         train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size = 0.20, random_state = 42)
 
-        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Eco district ID and Year not required for modelling purposes
         scaler = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         ## Storing the original training predictor data into another variable before scaling
@@ -92,10 +92,10 @@ class pcr_ecodistrict_model_fit():
         ## Storing the original testing predictor data into another variable before scaling
         test_index=test_features
         
-        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled training predictor data after removing some of the unnecessary columns like Township ID, Eco district ID and Year not required for modelling purposes
         X_train_scaled = scale(train_features.loc[:, ~train_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
 
-        ## storing the scaled testing predictor data after removing some of the unnecessary columns like Township ID, Ecodistrict ID and Year not required for modelling purposes
+        ## storing the scaled testing predictor data after removing some of the unnecessary columns like Township ID, Eco district ID and Year not required for modelling purposes
         X_test_scaled = scale(test_features.loc[:, ~test_features.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
         
         ## The training set features scaled and transformed into principal components
