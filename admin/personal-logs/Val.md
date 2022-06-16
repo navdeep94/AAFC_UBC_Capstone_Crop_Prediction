@@ -27,11 +27,21 @@
 | ----- | ----- | -------------- End of May -------------- |
 | Jun01 | 8     | Had meeting with Debangsha, had a team meeting to decide the presentation info for tomorrow’s client meeting                                         |
 | Jun02 | 10     | had client meeting, started exploring deep learning models with keras as requested by our client. Started running into issues with instability of my Jupiter lab with the kernel crashing.                                         |
-| Jun03 | 8     | Started working on the weekly presentation with Irene and Debangsha. Started exploring alternatives to keras and PyTorch for deep learning models                                         |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
-| Jun0X | X     |                                          |
+| Jun03 | 6     | Started working on the weekly presentation with Irene and Debangsha. Started exploring alternatives to keras and PyTorch for deep learning models                                         |
+| Jun06 | 6     | Started looking at the rubric to plan out the final report. 
+Started doing outlines for the report. Worked on tuning the hyperparameters to get an accurate output.
+Explored other deep learning techniques.
+                                        |
+| Jun07 | 6     | Worked on the executive summary and planned out the other parts of the report.
+                               |
+| Jun08 | 6     | Did the data wrangling portion of the final report.
+                                       |
+| Jun09 | 6    | Finished data wrangling portion and started working on analysis in the final report.
+                                       |
+| Jun10 | 8     | Completed the accuracy and MSE plots for all six models in python as requested by our client.
+Worked more on final report.
+
+                                        |
+                                        |
 | ----- | ----- | -------------- End of June ------------- |
 
