@@ -1,0 +1,10 @@
+DELIVERABLES:
+
+- Python packages with working and properly documented python scrips for all six models.
+- Crop yield values produced by each model.
+
+General:
+
+- Create a new excel file for result metrics of all models, with the scree plots.
+- Create new python plots for visualizing the trend for each model on number of recirds vs accuracy and test MSE. 
+
