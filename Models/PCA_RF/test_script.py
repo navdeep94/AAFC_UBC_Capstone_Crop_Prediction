@@ -14,8 +14,8 @@
 
 # +
 ## Importing Packages and Modules and necessary Libraries
-from pca_rf_aafc.PCA_RF import pcr_rf_ecodistrict_model_validation_scoring
-from pca_rf_aafc.PCA_RF import pcr_rf_ecodistrict_model_validation_scoring
+from pca_rf_aafc.PCA_RF import pca_rf_ecodistrict_model_validation_scoring
+from pca_rf_aafc.PCA_RF import pca_rf_ecodistrict_model_validation_scoring
 import pandas as pd
 
 ## Importing Wrangled and Clean Dataset
@@ -23,7 +23,7 @@ data=pd.read_csv("aafc_data.csv",index_col='Unnamed: 0')
 
 ## Instantiating the object of the Class by passing data and Ecodistrict ID
 ecodistrict_id = 748
-test=pcr_rf_ecodistrict_model_validation_scoring(data,ecodistrict_id)
+test=pca_rf_ecodistrict_model_validation_scoring(data,ecodistrict_id)
 
 ## Show PCA_RF Model Performance Metrics
 print("The validation metrics for PCA_RF for eco district ID " + str(ecodistrict_id) + " are as follows: ")
