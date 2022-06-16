@@ -14,38 +14,53 @@
 
 # +
 ## Importing Packages and Modules and necessary Libraries
-from pca_rf_aafc.PCA_RF import pcr_rf_ecodistrict_model_validation_scoring
-from pca_rf_aafc.PCA_RF import pcr_rf_ecodistrict_model_validation_scoring
+from pca_rf_aafc.PCA_RF import pca_rf_ecodistrict_model_validation_scoring
 import pandas as pd
 
 ## Importing Wrangled and Clean Dataset
 data=pd.read_csv("aafc_data.csv",index_col='Unnamed: 0')
 
-## Instantiating the object of the Class by passing data and Ecodistrict ID
-ecodistrict_id = 748
-test=pcr_rf_ecodistrict_model_validation_scoring(data,ecodistrict_id)
+try:
+    ## Storing list of unique ecodistricts in the list
+    ecodistricts = data['ECODISTRICT_ID'].unique()
 
-## Show PCA_RF Model Performance Metrics
-print("The validation metrics for PCA_RF for eco district ID " + str(ecodistrict_id) + " are as follows: ")
-test.validation_metrics()
+    print("Enter Valid Ecodistrict ID: ")
 
-## Show Predicted Crop Yield on Training Dataset
-train_predicted_df = test.predicted_train_dataset()
-train_predicted_df.to_csv('Outputs/train_predicted_df.csv')
+    ## Storing input into the variable
+    ecodistrict_id = int(input())
 
-## Show Predicted Crop Yield on Testing Dataset
-test_predicted_df = test.predicted_test_dataset()
-test_predicted_df.to_csv('Outputs/test_predicted_df.csv')
+    ## Checking if the Eco District ID entered by the user exists in the data
+    if (ecodistrict_id in ecodistricts):
 
-## Show Number of Principal Components
-test.number_principal_components()
+        ## Instantiating the object of the Class by passing data and Ecodistrict ID
+        test=pca_rf_ecodistrict_model_validation_scoring(data,ecodistrict_id)
 
-## Show Explained Variance
-test.cummulative_explained_variance()
+        ## Show PCA_RF Model Performance Metrics
+        print("The validation metrics for PCA_RF for eco district ID " + str(ecodistrict_id) + " are as follows: ")
+        test.validation_metrics()
 
-## Importing New Test Set
-data_to_score=pd.read_csv("scoring_test_df.csv",index_col='Unnamed: 0')
+        ## Show Predicted Crop Yield on Training Dataset
+        train_predicted_df = test.predicted_train_dataset()
+        train_predicted_df.to_csv('Outputs/train_predicted_df.csv')
 
-## Show Predicted Crop Yield on New Test Set
-new_data_predicted_df = test.score(data_to_score)
-new_data_predicted_df.to_csv('Outputs/new_data_predicted_df.csv')
+        ## Show Predicted Crop Yield on Testing Dataset
+        test_predicted_df = test.predicted_test_dataset()
+        test_predicted_df.to_csv('Outputs/test_predicted_df.csv')
+
+        ## Show Number of Principal Components
+        test.number_principal_components()
+
+        ## Show Explained Variance
+        test.cummulative_explained_variance()
+
+        ## Importing New Test Set
+        data_to_score=pd.read_csv("scoring_test_df.csv",index_col='Unnamed: 0')
+
+        ## Show Predicted Crop Yield on New Test Set
+        new_data_predicted_df = test.score(data_to_score)
+        new_data_predicted_df.to_csv('Outputs/new_data_predicted_df.csv')
+
+    else:
+        print("Ecodistrict not present")
+except:
+    print("Invalid Input")
