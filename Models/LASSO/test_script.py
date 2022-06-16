@@ -14,8 +14,8 @@
 
 # +
 ## Importing Packages and Modules and necessary Libraries
-from pcr_aafc.PCR import pcr_ecodistrict_model_validation_scoring
-from pcr_aafc.PCR import pcr_ecodistrict_model_fit
+from lasso_aafc.LASSO import lasso_ecodistrict_model_validation_scoring
+from lasso_aafc.LASSO import lasso_ecodistrict_model_fit
 import pandas as pd
 
 ## Importing Wrangled and Clean Dataset
@@ -23,10 +23,10 @@ data=pd.read_csv("aafc_data.csv",index_col='Unnamed: 0')
 
 ## Instantiating the object of the Class by passing data and Ecodistrict ID
 ecodistrict_id = 748
-test=pcr_ecodistrict_model_validation_scoring(data,ecodistrict_id)
+test=lasso_ecodistrict_model_validation_scoring(data,ecodistrict_id)
 
-## Show PCR Model Performance Metrics
-print("The validation metrics for PCR for eco district ID " + str(ecodistrict_id) + " are as follows: ")
+## Show Lasso Model Performance Metrics
+print("The validation metrics for Lasso for eco district ID " + str(ecodistrict_id) + " are as follows: ")
 test.validation_metrics()
 
 ## Show Predicted Crop Yield on Training Dataset
@@ -37,11 +37,8 @@ train_predicted_df.to_csv('Outputs/train_predicted_df.csv')
 test_predicted_df = test.predicted_test_dataset()
 test_predicted_df.to_csv('Outputs/test_predicted_df.csv')
 
-## Show Number of Principal Components
-test.number_principal_components()
-
-## Show Explained Variance
-test.cumulative_explained_variance()
+## Showing the Feature Importance
+test.feature_importance()
 
 ## Importing New Test Set
 data_to_score=pd.read_csv("scoring_test_df.csv",index_col='Unnamed: 0')
