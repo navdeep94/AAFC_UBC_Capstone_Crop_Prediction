@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 from sklearn.ensemble import RandomForestRegressor
 
 
-class pcr_rf_ecodistrict_model_fit():
+class pca_rf_ecodistrict_model_fit():
     """
     A class representing PCA+RF model having certain attributes and the methods
     ...
@@ -106,7 +106,7 @@ class pcr_rf_ecodistrict_model_fit():
 
         return pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance
 
-class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
+class pca_rf_ecodistrict_model_validation_scoring(pca_rf_ecodistrict_model_fit):
     """
     A child class used to evaluate PCA+RF Model and make predictions having its own attributes and the methods, as well as attributes and methods of its parent class
     ...
@@ -135,7 +135,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
     
     def __init__(self,aafc_data, ecodistrict):
         ## Instatiating this class by instatiating the parent class
-        pcr_rf_ecodistrict_model_fit.__init__(self,aafc_data, ecodistrict)
+        pca_rf_ecodistrict_model_fit.__init__(self,aafc_data, ecodistrict)
     
     def validation_metrics(self):
         '''
@@ -146,7 +146,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 None
         '''
         ## using the data returned from the parent class function for model evaluation
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         
         ## Calculating the MSE for training data
         mse_train = round(mean_squared_error(train_labels, pred_train,squared=False),2)
@@ -180,7 +180,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 returns train_index i.e., dataset with predicted values of crop yield based on training set predictors
         '''
         ## using the data returned from the parent class function for train set prediction
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         
         ## Storing the training predicted values in the original training dataset
         train_index['Predicted_Yield']=pred_train
@@ -195,7 +195,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 returns test_index i.e., dataset with predicted values of crop yield based on Testing set predictors
         '''
         ## using the data returned from the parent class function for test set prediction
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         ## Storing the testing predicted values in the original test dataset
         test_index['Predicted_Yield']=pred_test
         return test_index
@@ -209,7 +209,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 None
         '''
         ## using the data returned from the parent class function for optimal number of principal components
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         print("Number of Principal Components is:",best_pc_num)
 
     def cummulative_explained_variance(self):
@@ -221,7 +221,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 None
         '''
         ## using the data returned from the parent class function for exact variance
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         print("Cummulative Explained Variance is:",round(variance,2),"%")
     
     def score(self,data):
@@ -233,7 +233,7 @@ class pcr_rf_ecodistrict_model_validation_scoring(pcr_rf_ecodistrict_model_fit):
                 returns data i.e., dataset with predicted values of crop yield based on New Dataset predictors
         '''
         ## using the data returned from the parent class function for any new data set prediction
-        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pcr_rf_ecodistrict_model_fit.model_train_test(self)
+        pca,scaler,rf,train_labels,test_labels,train_index,test_index,pred_train,pred_test,best_pc_num,variance=pca_rf_ecodistrict_model_fit.model_train_test(self)
         
         ## Removing the columns not required for modelling purpose and scaling the same
         features=scaler.transform(data.loc[:, ~data.columns.isin(['TWP_ID', 'ECODISTRICT_ID', 'YEAR'])])
