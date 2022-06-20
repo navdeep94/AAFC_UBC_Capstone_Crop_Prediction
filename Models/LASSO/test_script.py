@@ -48,7 +48,8 @@ try:
         test_predicted_df.to_csv('Outputs/test_predicted_df.csv')
 
         ## Showing the Feature Importance
-        test.feature_importance()
+        features_importance_df = test.feature_importance()
+        features_importance_df.to_csv('Outputs/features_importance_df.csv')
 
         ## Importing New Test Set
         data_to_score=pd.read_csv("scoring_test_df.csv",index_col='Unnamed: 0')
