@@ -31,5 +31,12 @@
 | Jun08 | 8     |     Attended weekly log meeting with Debangsha. Explored and implemented PCA+Random forest model to predict the crop yield. Created a script and exported the performance metrics for each sub-model corresponding to each district. Created excel visualization to showcase the performance of each model                          |
 | Jun09 | 8     |     Attended meeting with the clients and showcased our progress. Created a python package for LASSO implementation as suggested by the clients                                 |
 | Jun10 | 6     |     Replicated the package for PCR+Random forest model as well. Started working on the weekly progress deck. Reviewed the packages created by other teammates as well. Reviewed the python visualization created by my teammate|
+| Jun13 | 8     |    Did documentation for LASSO and PCR + LASSO - Added docstrings and comments. Finished working on weekly progress deck and had dry run with Mehul.                    |
+| Jun14 | 8     |    Attended meeting with project supervisors and with the clients. Met with our teammates and divided tasks for the report. Worked on .py scripts   and the report                  |
+| Jun15 | 8     |    Attended weekly log meeting with Debangsha. Worked   on executive summary and the usage document. Checked whether the packages are functional               |
+| Jun16 | 8     |    Worked on project report.      Started with the final presentation                |
+| Jun17 | 8     |    Finished project report - Tools, Methodology, and Techniques, executive summary, references. Reviewed parts of report done by by teammates. Sent v2 version of teh final presentation deck.                   |
+
+
 
 | ----- | ----- | -------------- End of June ------------- |
