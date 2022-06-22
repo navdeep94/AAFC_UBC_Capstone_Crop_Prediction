@@ -38,5 +38,6 @@
 | Jun15 | 9    |     <ul><li>Internal Calls to discuss the progress made in the project<li>Worked on the package development and scripts for all the models and integrating them to share with the partner</li><li>Worked on the analysis and the interpreation part of the report</li></ul>                                      |
 | Jun16 | 6   |     <ul><li>Internal Calls to discuss the progress made in the project<li>Worked on the package development and scripts for all the models and integrating them to share with the partner</li><li>Worked on the analysis and the interpreation part of the report</li><li>Started working on the presentation and the powerpoint slides</li></ul>                                       |
 | Jun17 | 7    |     <ul><li>Internal Calls to discuss the progress made in the project<li>Worked on the package development and scripts for all the models and integrating them to share with the partner</li><li>Worked on the analysis and the interpreation part of the report</li><li>Started working on the presentation and the powerpoint slides</li></ul>                                      |
+| Jun20 | 6   |     <ul><li>Prepared for the presentation and the slides</li></ul>                                      |
 | ----- | ----- | -------------- End of June ------------- |
 
