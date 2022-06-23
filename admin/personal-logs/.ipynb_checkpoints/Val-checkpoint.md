@@ -39,9 +39,12 @@ Explored other deep learning techniques.
 | Jun09 | 6    | Finished data wrangling portion and started working on analysis in the final report.
                                        |
 | Jun10 | 8     | Completed the accuracy and MSE plots for all six models in python as requested by our client.
-Worked more on final report.
+Worked more on final report. |
+| Jun13 | 6     | Worked on the executive summary, added references and started editing data portion of the report                                      |
+| Jun14 | 6     | worked on the data portion of report. Started on tools and methodologies for report                                      |
+| Jun15 | 6     | Had meeting with Debangsha, started working on the data wrangling, started converting code screenshots into tables                                 |
+| Jun16 | 8    | Finished data wrangling portion and worked on formatting the rest of the document. Started working on the presentation slides                                      
+| Jun17 | 6     | Worked on the presentation slides and more formatting for the report. Checked for plagerization and reviewed bibiligraphy for all the sources in document  |
 
-                                        |
-                                        |
 | ----- | ----- | -------------- End of June ------------- |
 
