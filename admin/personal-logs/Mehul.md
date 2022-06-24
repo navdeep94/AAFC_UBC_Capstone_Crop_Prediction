@@ -37,6 +37,7 @@
 | Jun15 Wednesday | 6     |    <ul><li>Attended meeting with Debangsha (TA).</li><li>Worked on the project report, along with its formatting.</li><li>Reviewd Executive Summary, and usage document.</li><li>Checked if modified python scripts are properly functioning or not.</li></ul>                      |         
 | Jun16 Thursday | 6     |    <ul><li>Worked on the project report, along with its formatting and added more content, reviewd other's content.</li><li>Worked on final presentation and shared the first vrsion with the team mates.</li><li>Checked if modified python scripts are properly functioning or not because (tested new changes).</li></ul>                      |         
 | Jun17 Friday | 6     |    <ul><li>Worked more on the project report (added new content, formatting, indexing, pagination, etc).</li><li>Worked more on Final Presentation.</li><li>Tested final python package scripts after adding more functionalities (as part of our deliverables).</li></ul>                      |     
+| Jun20 Monday | 6     |    <ul><li>Prepared for the presenation, finalized report and presentation deck.</li></ul>                      |     
 
 | ----- | ----- | -------------- End of June ------------- |
 
